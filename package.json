@@ -2,11 +2,7 @@
   "name": "NextPortfolio",
   "version": "0.1.0",
   "private": true,
-  "author": {
-    "name": "Oluwatobiloba Agbeja",
-    "email": "tobiagbeja4@gmail.com",
-    "url": "https://oluwatobilobaagbeja.netlify.app"
-  },
+  "author": "Oluwatobiloba Agbeja <tobiagbeja4@gmail.com>",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
