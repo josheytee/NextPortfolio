@@ -1,6 +1,6 @@
 import Head from 'next/head'; 
-import Layout from '../layout/';
-import Portfolio from '../components/Portfolio';
+import Layout from 'layout/';
+import Portfolio from 'components/Portfolio';
 
 function Index() {
   return (
@@ -123,7 +123,8 @@ function Index() {
             </section>
             {/* <div>OR</div> */}
             <section>
-              <form method="post" action="https://formspree.io/xqkydond">
+              {/* <form method="post" action="https://formspree.io/xqkydond" data-netlify="true"> */}
+              <form name="contact" action="/success" method="POST" data-netlify="true">
                 <section className="form-group">
                   <label htmlFor="name">Name</label>
                   <input type="text" name="name" />

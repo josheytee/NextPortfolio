@@ -1,7 +1,7 @@
-import PortfolioCard from '../../components/PortfolioCard';
+import PortfolioCard from 'components/PortfolioCard';
 import Head from 'next/head';
-import data from '../../data';
-import Layout from '../../layout';
+import data from 'data';
+import Layout from 'layout';
 
 
 class Portfolio extends React.Component {

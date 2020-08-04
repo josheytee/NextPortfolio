@@ -1,11 +1,17 @@
 {
-  "name": "NextPortfolio",
+  "name": "Next Portfolio",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Oluwatobiloba Agbeja",
+    "email": "tobiagbeja4@gmail.com",
+    "url": "https://oluwatobilobaagbeja.netlify.app"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "npm run build && next export"
   },
   "dependencies": {
     "next": "9.3.5",

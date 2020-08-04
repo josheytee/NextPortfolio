@@ -1,6 +1,6 @@
 import Head from 'next/head';
-import data from '../../../data';
-import Layout from '../../../layout'
+import data from 'data';
+import Layout from 'layout'
 
 class Project extends React.Component {
     constructor(props) {
